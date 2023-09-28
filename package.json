@@ -1,0 +1,34 @@
+{
+  "name": "basic-node-server",
+  "version": "1.0.0",
+  "description": "Broiler Plate Node server with a working test mode, dev mode (with nodemon), and a live mode",
+  "main": "server.js",
+  "scripts": {
+    "test": "node run test",
+    "start": "set NODE_ENV=production && node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/taz2536/Basic-node-server.git"
+  },
+  "keywords": [
+    "Node",
+    "server",
+    "broiler",
+    "plate",
+    "basic",
+    "initialised"
+  ],
+  "author": "Ainun N Tazwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taz2536/Basic-node-server/issues"
+  },
+  "homepage": "https://github.com/taz2536/Basic-node-server#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
