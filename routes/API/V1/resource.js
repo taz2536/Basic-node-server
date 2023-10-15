@@ -1,6 +1,9 @@
 const router = require("express").Router();
 
-const constant = require("../../../Const");
+//const constant = require("../../../Const");
+
+
+
 const { getResources, 
         getResource, 
         deleteResource,
@@ -11,6 +14,8 @@ const { getResources,
 router.route("/")
     .get(getResources)
     .post(createResource);
+
+
 
 router.route("/:id")
     .get(getResource)
